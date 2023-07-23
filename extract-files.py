@@ -28,6 +28,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/lib64/libmtkcam_stdutils.so': blob_fixup()
+        .replace_needed('libutils.so', 'libutils-v32.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
