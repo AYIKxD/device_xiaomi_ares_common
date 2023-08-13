@@ -8,8 +8,8 @@
     <item name="wifi.on">0.33</item>
     <item name="wifi.active">287.87</item>
     <item name="wifi.scan">28.76</item>
-    <item name="dsp.audio">20.36</item>
-    <item name="dsp.video">61.06</item>
+    <item name="audio">20.36</item>
+    <item name="video">61.06</item>
     <item name="camera.flashlight">112.28</item>
     <item name="camera.avg">659.4</item>
     <item name="gps.on">34.4</item>
