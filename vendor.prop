@@ -1,2 +1,6 @@
 # Fingerprint
 persist.vendor.fingerprint.sensor_location=1080|920|210
+
+# SKU properties
+ro.product.property_source_order=odm,vendor,product,system
+import /vendor/${ro.boot.product.hardware.sku}.build.prop
