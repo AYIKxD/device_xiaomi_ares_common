@@ -1,5 +1,5 @@
 # Fingerprint
-persist.vendor.fingerprint.sensor_location=1080|920|210
+persist.vendor.fingerprint.sensor_location=1080|920|210|local:0
 
 # SKU properties
 ro.product.property_source_order=odm,vendor,product,system
