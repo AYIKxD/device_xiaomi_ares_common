@@ -7,6 +7,10 @@
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    init.project.rc
+
 # Inherit from mt6893-common
 $(call inherit-product, device/xiaomi/mt6893-common/mt6893.mk)
 
