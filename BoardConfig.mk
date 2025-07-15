@@ -11,6 +11,9 @@ TARGET_OTA_ASSERT_DEVICE := ares,aresin
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Security Patch Level
+VENDOR_SECURITY_PATCH := 2023-10-01
+
 # Inherit from mt6893-common
 include device/xiaomi/mt6893-common/BoardConfigCommon.mk
 

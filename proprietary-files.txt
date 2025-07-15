@@ -1,1 +1,42 @@
 # Unpinned blobs from ares_global-user 13 TP1A.220624.014 V14.0.5.0.TKJINXM release-keys
+
+# Batterysecret
+vendor/bin/batterysecret
+
+# Display configs
+vendor/etc/cust_color.xml
+vendor/etc/cust_silky_brightness.xml
+vendor/etc/dsi_k10_42_02_0a_dsc_cmd_mi.xml
+
+# Fingerprint
+vendor/lib64/hw/fingerprint.fpc_isee.so:vendor/lib64/hw/fingerprint.fpc.default.so;FIX_SONAME
+vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so;FIX_SONAME
+vendor/lib64/libgf_ca.so
+vendor/lib64/libgf_hal.so
+vendor/lib64/libgoodixhwfingerprint.so
+
+# Touch
+vendor/firmware/focaltech_ts_fw.bin
+
+# Thermal
+vendor/bin/mi_thermald
+vendor/etc/thermal-4k.conf
+vendor/etc/thermal-camera.conf
+vendor/etc/thermal-class0.conf
+vendor/etc/thermal-india-4k.conf
+vendor/etc/thermal-india-camera.conf
+vendor/etc/thermal-india-class0.conf
+vendor/etc/thermal-india-mgame.conf
+vendor/etc/thermal-india-normal.conf
+vendor/etc/thermal-india-phone.conf
+vendor/etc/thermal-india-tgame.conf
+vendor/etc/thermal-india-video.conf
+vendor/etc/thermal-map-india.conf
+vendor/etc/thermal-map.conf
+vendor/etc/thermal-mgame.conf
+vendor/etc/thermal-nolimits.conf
+vendor/etc/thermal-normal.conf
+vendor/etc/thermal-phone.conf
+vendor/etc/thermal-region-map.conf
+vendor/etc/thermal-tgame.conf
+vendor/etc/thermal-video.conf
