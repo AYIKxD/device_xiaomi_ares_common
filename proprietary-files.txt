@@ -541,13 +541,6 @@ vendor/etc/cust_color.xml
 vendor/etc/cust_silky_brightness.xml
 vendor/etc/dsi_k10_42_02_0a_dsc_cmd_mi.xml
 
-# Fingerprint
-vendor/lib64/hw/fingerprint.fpc_isee.so:vendor/lib64/hw/fingerprint.fpc.default.so;FIX_SONAME
-vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so;FIX_SONAME
-vendor/lib64/libgf_ca.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/libgoodixhwfingerprint.so
-
 # Touch
 vendor/firmware/focaltech_ts_fw.bin
 
