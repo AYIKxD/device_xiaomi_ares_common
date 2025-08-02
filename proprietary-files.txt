@@ -1,6 +1,23 @@
 # Unpinned blobs from ares_global-user 13 TP1A.220624.014 V14.0.5.0.TKJINXM release-keys
 
 # Audio
+vendor/firmware/RCV-cs35l41-dsp1-spk-cali.bin
+vendor/firmware/RCV-cs35l41-dsp1-spk-prot.bin
+vendor/firmware/cs35l41-delta-rcv-handset.txt
+vendor/firmware/cs35l41-delta-rcv-handsfree.txt
+vendor/firmware/cs35l41-delta-rcv-music.txt
+vendor/firmware/cs35l41-delta-spk-handsfree.txt
+vendor/firmware/cs35l41-delta-spk-music.txt
+vendor/firmware/cs35l41-dsp1-spk-cali.bin
+vendor/firmware/cs35l41-dsp1-spk-cali.wmfw
+vendor/firmware/cs35l41-dsp1-spk-prot.bin
+vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
+vendor/lib/hw/audio.primary.mt6893.so
+vendor/lib/libaudio_param_parser-vnd.so
+vendor/lib/libmisound.so
+vendor/lib/libmisoundcrossfade.so
+
+# Audio Configs
 vendor/etc/audio_device.xml
 vendor/etc/audio_param/AudioParamOptions.xml
 vendor/etc/audio_param/AudioParamOptions_vext.xml
@@ -27,6 +44,9 @@ vendor/etc/audio_param/VoWVoiceCommand_AudioParam.xml
 vendor/etc/aurisys_config_hifi3.xml
 vendor/etc/aurisys_param/FV-SAM-MTKXX.dat
 vendor/etc/aurisys_param/Speech_AudioParam.xml
+vendor/etc/misound_res.bin
+vendor/etc/misound_res_headphone.bin
+vendor/etc/misound_res_spk.bin
 
 # Batterysecret
 vendor/bin/batterysecret
