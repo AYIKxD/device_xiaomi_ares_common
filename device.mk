@@ -3,6 +3,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Overlay
+PRODUCT_PACKAGES += \
+    FrameworksResOverlayAres \
+    SystemUIOverlayAres \
+
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
