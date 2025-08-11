@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    init.ares.rc \
     init.project.rc
 
 # Inherit from mt6893-common

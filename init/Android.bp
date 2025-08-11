@@ -4,6 +4,13 @@
 //
 
 prebuilt_etc {
+    name: "init.ares.rc",
+    src: "init.ares.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.project.rc",
     src: "init.project.rc",
     sub_dir: "init/hw",
