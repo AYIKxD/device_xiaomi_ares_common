@@ -12,6 +12,9 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayAres \
     SystemUIOverlayAres \
 
+PRODUCT_PACKAGES += \
+    LineageSDKOverlayAres \
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Soong
