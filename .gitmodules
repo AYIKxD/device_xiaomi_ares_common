@@ -1,0 +1,3 @@
+[submodule "XiaomiParts"]
+	path = XiaomiParts
+	url = https://github.com/AYIKxD/Parts-ares.git
