@@ -43,9 +43,6 @@ on post-fs-data
     chmod 0660 /dev/spm
     chown system system /dev/spm
 
-    chown system system /dev/gamekey
-    chmod 0660 /dev/gamekey
-
 #copy JIIGAN bokeh model
 on property:sys.boot_completed=1
     mkdir /data/vendor/camera/jiiganmodel 0777 cameraserver audio
